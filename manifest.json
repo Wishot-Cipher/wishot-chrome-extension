@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "HelpMeOut",
+  "version": "1.0",
+  "description": "screen Recording Extension For Chrome, Say Hello To Your Friends By creating and sending videos on how to get things done on a website.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "desktopCapture",
+    "storage",
+    "identity",
+    "webNavigation",
+    "offscreen"
+  ],
+  "action": {
+    "default_popup": "/popup.html",
+    "default_icon": {
+      "16": "/images/icon.png",
+      "48": "/images/icon.png",
+      "128": "/images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "/images/icon.png",
+    "48": "/images/icon.png",
+    "128": "/images/icon.png"
+  }
+}
